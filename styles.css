@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background: #1f2024;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;   
+    height: 7px ;       
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(37, 37, 37);     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffff;  
+    border-radius: 20px;     
+    border:  1px solid transparent;  
+  }
+
+  .list::-webkit-scrollbar {
+    width: 1px; 
+    height: 9px;         
+  }
+  
+  .list::-webkit-scrollbar-track {
+    background: transparent;     
+  }
+  
+  .list::-webkit-scrollbar-thumb {
+    background-color: #eeeeee;  
+    border-radius: 10px;     
+    border:  1px solid transparent;  
+  }
+
+  .asf:hover{
+    transform: scale(1.2);
+  }
+
+.capa{
+    background-image: url(banner.jpg);
+}
+/* Estilos do cabeçalho */
+header {
+    background: #2b2b2b;
+    background: linear-gradient(0deg, rgba(43, 43, 43, 0.007) 33%, rgba(24, 25, 27, 0.945) 70%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    width: 90%;
+    position:fixed;
+}
+
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Kenia', sans-serif;
+    text-transform: uppercase;
+   color: #00f275;
+}
+
+.logo_banner{
+    height: 53px;
+    width: 210px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links:hover{
+    transform: scale(1.2);
+}
+
+nav a:hover{
+    color: #00f275;
+}
+
+/* Estilos do herói */
+.hero {
+    width: 90%;
+    height: 500px;
+    background-image: url(img/bannerinicial.png);
+    padding: 70px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Estilos do conteúdo */
+.content {
+    padding: 50px 5%;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+}
+
+.anime-list, .movies-list, .serie-list, .animacao-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #000;
+    padding: 10px 5%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-family: 'Kenia', sans-serif;
+}
+
+@media (max-width: 900px) {
+    .hero{
+        background-image: url(img/bannerinicial900px.png);
+    }
+} 

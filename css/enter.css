@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  align-items: center;
+  background: linear-gradient(-45deg, #11b677, #28a32e, #080808f8, #2b2828e8);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+
+
+
